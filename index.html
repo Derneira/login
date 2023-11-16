@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+ <title>Login</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js"></script>
 </head>
 <body>
-  <div class="container">
-  <input type="text" placeholder="email ou nome">
-  <input type="text" placeholder="senha">
-  <button>Entrar</button>
-  </div>
+ <form id="login">
+   <label for="email">E-mail:</label><br>
+   <input class="texto" type="text" id="email" name="email"><br>
+   <label for="password">Senha:</label><br>
+   <input class="texto" type="password" id="password" name="password"><br>
+   <input class="login" type="submit" value="Login">
+ </form>
+
+ <div id="logout" style="display: none;">
+   <img src="https://i1.wp.com/amplino.org/wp-content/uploads/-000//1/bom-dia-amigos-gif-6.gif?resize=500%2C444&ssl=1">
+   <p>medan ota 🦍</p>
+   <p class="pog">preguiça de fazer css</p>
+   <button id="logoutbtn">Sair</button>
+ </div>
 </body>
 </html>
